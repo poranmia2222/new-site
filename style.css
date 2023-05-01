@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.top-section{
+    height: 850px;
+    background-image: url("header-bg.png");
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.helf-width h3{
+    font-weight: 500;
+    font-size: 30px;
+}
+.helf-width h1{
+    font-weight: 800;
+    font-size: 60px;
+    color: #E64A77;
+}
+.helf-width p{
+    color: gray;
+    padding: 20px 0px;
+    font-size: 20px;
+}
+.helf-width{
+    float: left;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 3%;
+    padding-left: 3%;
+}
+.helf-width img{
+    width: 80%;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    background-color: #EC4F8F;
+    position: absolute;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.mid-section{
+    height: 850px;
+    background-image: url("biography-bg.png");
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.work-protfolio h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    margin: 100px;
+}
+.work-protfolio{
+    height: 850px;
+    margin: 20px
+}
+.work-img{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+.work-img img{
+    width: 90%;
+}
+.info{
+    height: 700px;
+}
+.personal-info{
+    text-align: center;
+}
+.personal-info h1{
+    margin: 3%;
+    padding: 2%;
+    font-size: 45px;
+    font-weight: 500;
+}
+.personal-info h3{
+    font-size: 35px;
+    font-weight: 600;
+}
+.personal-info h5{
+     font-size: 20px;
+     font-weight: 400;
+     color: gray;
+}
+.personal-info p{
+    padding: 2%;
+}
+.mail-box{
+    margin-top: 60px;
+    background-color: #E64A77;
+    width: 40%;
+    margin-left: 29%;
+    padding: 1% 1% 2% 2%;
+    border-radius: 15px;
+    color: white;
+}
+.mail-box p{
+    padding: 15px;
+}
+footer{
+    text-align: center;
+    color: gray;
+}
